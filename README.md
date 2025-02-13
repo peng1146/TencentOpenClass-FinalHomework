@@ -9,18 +9,18 @@
 2. **游戏大厅界面**：游戏界面的玩家信息展示界面、游戏模式选择框、游戏关卡选择框和服务器开始游戏按钮的功能，以及退出界面由服务器端解散房间和退出游戏的功能。（主要存储在 Content/Menu/LobbyUI）
 
 ### 游戏 UI
-1.**游戏载入界面**：服务器开始游戏带领客户端进入游戏前展示的 UI 界面。（主要存储在Content/UI/CommonUI 内）
-2.**游戏内 UI 界面**：弹药数量、角色生命、具有命中反馈的武器准星、击杀信息播报、top 2 排行榜及个人击杀进度条和游戏结束界面。（主要存储在 Content/UI/GameUI）
+1. **游戏载入界面**：服务器开始游戏带领客户端进入游戏前展示的 UI 界面。（主要存储在Content/UI/CommonUI 内）
+2. **游戏内 UI 界面**：弹药数量、角色生命、具有命中反馈的武器准星、击杀信息播报、top 2 排行榜及个人击杀进度条和游戏结束界面。（主要存储在 Content/UI/GameUI）
 
 ### 模型表现优化
-1.**第三人称瞄准偏移**：多方向的瞄准偏移（主要存储在 Content/AnimStarterPack/AimOffset）
-2.**第三人称换弹动作**：执行换弹动作并与弹药数量 UI 同步（主要存储在 Content/AnimStarterPack/Reload_Rifle_Hip_Montage）
-3.**第一人称手臂动作**：换弹动作和射击动作（主要存储在 Content/FirstPersonArms/Animations）
-4.**角色模型设计**：他人可见的第三人称骨骼网格体、自身可见的手部骨骼网格体、自身可见的骨骼网格体、枪械挂载、阴影以及多种相机位置（主要存储在 Content/FirstPerson/Blueprints/BP_FirstPersonCharacter）
+1. **第三人称瞄准偏移**：多方向的瞄准偏移（主要存储在 Content/AnimStarterPack/AimOffset）
+2. **第三人称换弹动作**：执行换弹动作并与弹药数量 UI 同步（主要存储在 Content/AnimStarterPack/Reload_Rifle_Hip_Montage）
+3. **第一人称手臂动作**：换弹动作和射击动作（主要存储在 Content/FirstPersonArms/Animations）
+4. **角色模型设计**：他人可见的第三人称骨骼网格体、自身可见的手部骨骼网格体、自身可见的骨骼网格体、枪械挂载、阴影以及多种相机位置（主要存储在 Content/FirstPerson/Blueprints/BP_FirstPersonCharacter）
 
 ### 游戏模式
-1.**武器基本功能**：设置拥有者、开火与弹药更新、射线碰撞检测以及动画播放（主要存储在 Content/WeaponBase）
-2.**角色基本功能**：骨骼网格体的显隐、枪械显隐、角色动作映射、计算点状伤害、角色死亡与角色重生事件（主要存储在 Content/FirstPerson/Blueprints/BP_FirstPersonCharacter）
-3.**游戏实例**：局域网络游戏的创建、查找以及快速加入的基本实现。（主要存储在 Content/MyGameInstance）
-4.**非游戏相关**：非游戏相关玩家控制器；主菜单的关卡、游戏模式、游戏状态及HUD；游戏大厅的关卡、游戏模式、游戏状态以及HUD。（主要存储在Content/Menu）
-5.**游戏相关**：在线游戏基础游戏模式、游戏状态和玩家状态；生死竞技的游戏模式与游戏状态。（主要存储在Content/System）
+1. **武器基本功能**：设置拥有者、开火与弹药更新、射线碰撞检测以及动画播放（主要存储在 Content/WeaponBase）
+2. **角色基本功能**：骨骼网格体的显隐、枪械显隐、角色动作映射、计算点状伤害、角色死亡与角色重生事件（主要存储在 Content/FirstPerson/Blueprints/BP_FirstPersonCharacter）
+3. **游戏实例**：局域网络游戏的创建、查找以及快速加入的基本实现。（主要存储在 Content/MyGameInstance）
+4. **非游戏相关**：非游戏相关玩家控制器；主菜单的关卡、游戏模式、游戏状态及HUD；游戏大厅的关卡、游戏模式、游戏状态以及HUD。（主要存储在Content/Menu）
+5. **游戏相关**：在线游戏基础游戏模式、游戏状态和玩家状态；生死竞技的游戏模式与游戏状态。（主要存储在Content/System）
