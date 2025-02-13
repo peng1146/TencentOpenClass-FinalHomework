@@ -35,3 +35,5 @@
 
 ## 备注
 由于Git上传有文件大小的限制，Asian_Village 与 Stylized_Egypt 两个关卡内容已经删除，如需运行程序，要**先去 Fab 下载完整的 Stylized Eastern Village 与 Stylized Egypt 免费资产**。
+
+视频经过压缩，略有模糊请见谅。
