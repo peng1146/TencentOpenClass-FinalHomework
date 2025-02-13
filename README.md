@@ -32,3 +32,6 @@
 4. 将团队竞技模式开发完成。
 5. 尝试加入玩家登录系统。
 6. 在生死竞技模式中实现随机出生点。
+
+## 备注
+由于Git上传有文件大小的限制，Asian_Village 与 Stylized_Egypt 两个关卡内容已经删除，如需运行程序，要**先去 Fab 下载完整的 Stylized Eastern Village 与 Stylized Egypt 免费资产**。
